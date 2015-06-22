@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connect - Freemail</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Start Header --> 
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png"/>
+          </a>
+            <div id="profile-nav" class="">
+              <div class="avatar"></div>
+              <a href="#" class="profile-nav-label" data-toggle="dropdown" aria-expanded="false">
+                <span>Hello, John Doe</span>
+                <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
+                <li role="menuitem">
+                  <a role="menuitem" tabindex="-1" href="connect.html">Connect Services</a>
+                </li>
+                <li role="menuitem">
+                  <a role="menuitem" tabindex="-1" href="#">Performance</a>
+                </li>
+                <li role="menuitem">
+                  <a class="inactive" role="menuitem" tabindex="-1" href="#">Account Settings</a>
+                </li>
+                <li class="dark" role="menuitem">
+                  <a role="menuitem" tabindex="-1" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Header --> 
+
+      <!-- Start Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="content top40">
+
+              <hr>
+
+              <div class="connect-item">
+                <img src="img/logo-ses.png" class="service-logo"/>
+                <div class="text">
+                  <h6>Amazon SES</h6>
+                  <div class="description">Configure to sync email services from Amazon SES</div>
+                </div>
+                <a href="amazon-setup.html" class="btn">Connect</a>
+              </div>
+
+              <hr>
+
+              <div class="connect-item">
+                <img src="img/logo-sendgrid.png" class="service-logo"/>
+                <div class="text">
+                  <h6>SendGrid</h6>
+                  <div class="description">Configure to sync email services from SendGrid</div>
+                </div>
+                <a href="#" class="btn">Connect</a>
+              </div>
+
+              <hr>
+
+              <div class="connect-item">
+                <img src="img/logo-mailgun.png" class="service-logo"/>
+                <div class="text">
+                  <h6>MailGun</h6>
+                  <div class="description">Configure to sync email services from MailGun</div>
+                </div>
+                <a href="#" class="btn-connected">Connected</a>
+              </div>
+
+              <hr>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Content -->  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

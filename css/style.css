@@ -1,0 +1,289 @@
+/*
+Project : Freemail MVP
+Version : v0.1
+By : Younes Hadry
+*/
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+/*Start Setup*/
+html body { 
+    margin:0;
+    padding: 0;
+    background-color: transparent;
+    font-family: "Open sans", "Helvetica", sans-serif !important;
+    font-size: 14px;
+    font-weight: 300;
+    background: #f9f9fb;
+    font-smoothing:antialiased;
+}
+
+.green {
+    color:#5ebc86;
+}
+
+.orange {
+    color:#f18c2a;
+}
+
+.grey {
+    color:#606e73;
+}
+
+.top40 { margin-top: 40px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.floatright {
+    float:right;
+}
+
+.floatleft {
+    float:left;
+}
+
+.hide {
+    display: none;
+
+}
+
+.400 {
+    font-weight: 400 !important;
+}
+
+.300 {
+    font-weight: 300 !important;
+}
+
+.bold {
+    font-family: "Open sans";
+    font-weight: 400 !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover, a:visited, a:active, a:link {
+    text-decoration: none;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.row.no-gutter {
+    margin-right:0;
+    margin-left:0;
+}
+
+.row.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/*End Setup*/
+
+/*Start Header*/
+
+.navbar {
+    position: relative;
+    height: 98px;
+    width: 100%;
+    background-color: #3a3f41;
+    border-radius: 0;
+}
+
+.navbar-header {
+    position: relative;
+    height: 52px;
+    width: 100%;
+    margin: 22px 20px;
+    display: block;
+
+
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0px;
+}
+
+.navbar-brand {
+    height: 52px;
+    width: 157px;
+    padding:0;
+    margin:0;
+}
+
+#profile-nav {
+  float: right;
+  height: 57px;
+  width: auto;
+  min-width: 200px;
+  position: relative;
+  display: block;
+  padding: 15px 0px;
+}
+
+#profile-nav .profile-nav-label { 
+  color:#bcc4c9;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open sans", "Helvetica", Arial, sans-serif;
+  line-height: 23px;
+  margin-left: 5px;
+}
+
+.avatar { 
+    height: 57px;
+    width: 57px;
+    border-radius: 100px;
+    background-color: #494f52;
+    float: left;
+    margin: -16px 2px;
+
+}
+
+#profile-nav a i { 
+    float: right;
+    color:#d1d1d5;
+    margin-top: 6px; 
+}
+
+#profile-nav .dropdown-menu {
+  min-width: 200px;
+  margin:16px 0px;
+  border-radius: 0;
+  color:#aeaeb1;
+  padding: 0px 0;
+  background-color: #eaeff1;
+}
+
+#profile-nav .dropdown-menu li {
+  padding: 9px 0px;
+  margin: 0;
+  height: 45px;
+  border-bottom: 1px solid #d3dbe0;
+}
+
+#profile-nav .dropdown-menu li a {
+  color:#838d91;
+}
+
+#profile-nav .dropdown-menu li a.inactive {
+  color:#c6cfd3;
+}
+
+#profile-nav .dropdown-menu li a:hover,#profile-nav .dropdown-menu li a:active {
+  color:#3a3f41;
+  background: transparent;
+}
+/*End Header*/
+
+/*Start Content*/
+.content {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.content hr {
+    border: 0;
+    height: 1px;
+    background: #e8eaf0;
+    margin: 10px 0;
+}
+
+.connect-item {
+    height: 100px;
+    width: 100%;
+}
+
+.service-logo { 
+    float: left;
+    padding:15px 0px;
+
+}
+
+.connect-item .text {
+    height: 70px;
+    width: auto;
+    max-width: 440px;
+    padding: 15px 20px;
+    float: left;
+}
+
+.connect-item .text h6 {
+    font-size: 21px;
+    color:#47506e;
+    font-weight: 300;
+}
+
+.connect-item .text .description {
+    font-size: 14px;
+    font-weight: 300;
+    color:#8b90a0;
+    line-height: 25px;
+}
+
+.connect-item .btn {
+  display: inline-block;
+  height: 41px;
+  width: 135px;
+  border-radius: 3px;
+  background-color: #494f52;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 9px;
+  float: right;
+  margin-top: 25px;
+}
+
+.connect-item .btn:hover {
+    background-color: #6eb5dd;
+}
+
+.connect-item .btn-connected {
+  display: inline-block;
+  height: 41px;
+  width: 135px;
+  border-radius: 3px;
+  background-color: #6eb5dd;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 9px;
+  float: right;
+  margin-top: 25px;
+}
+
+.item-banner {
+    width: 100%;
+    height: 162px;
+    width: 100%;
+    background-color: #0082cb;
+    margin-bottom: 20px;
+}
+
+.item-banner img {
+    text-align: center;
+
+}
+
+.item-description {
+    text-align: center;
+    line-height: 26px;
+
+}
+
+
+/*End Content*/
+
