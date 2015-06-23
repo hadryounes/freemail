@@ -19,19 +19,23 @@ html body {
     font-smoothing:antialiased;
 }
 
-.green {
-    color:#5ebc86;
+.bgyellow {
+    background-color:#febe10;
 }
 
-.orange {
-    color:#f18c2a;
+.bgblue {
+    background-color: #0082cb;
 }
 
-.grey {
-    color:#606e73;
+.bgred {
+    background-color:#c12126;
 }
 
 .top40 { margin-top: 40px;
+
+}
+
+.top30 { margin-top: 30px;
 
 }
 
@@ -269,21 +273,82 @@ a:hover, a:visited, a:active, a:link {
     width: 100%;
     height: 162px;
     width: 100%;
-    background-color: #0082cb;
     margin-bottom: 20px;
 }
 
 .item-banner img {
-    text-align: center;
-
+    margin:0 auto;
+    position: relative;
 }
 
 .item-description {
     text-align: center;
     line-height: 26px;
+}
 
+.item-form {
+    margin-top: 20px;
+}
+
+.item-form label {
+    font-size: 15px;
+    font-weight: 600;
+    color:#585c67;
 }
 
 
+.item-form input, .item-form select {
+    height: 50px;
+    border:1px solid #b0b1b6;
+    background-color: #f6f6fb;
+    margin-bottom: 15px;
+}
+
+.save-btn {
+  display: block;
+  height: 41px;
+  width: 135px;
+  border-radius: 3px;
+  background-color: #494f52;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 9px;
+  margin-top: 25px;
+}
+
+.save-btn:hover, .save-btn:active, .save-btn:visited {
+    background-color: #494f52;
+    color:white;
+    cursor: pointer
+}
+
+.content-box {
+    position: relative;
+    height: auto;
+    min-height:520px;
+    background:white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px 0px #d2d7e1;
+    box-shadow: 0 1px 1px 0px #d2d7e1;
+}
+
+.content-box-half {
+    position: relative;
+    height: auto;
+    background:white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px 0px #d2d7e1;
+    box-shadow: 0 1px 1px 0px #d2d7e1;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
 /*End Content*/
+
 

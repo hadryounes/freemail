@@ -17,7 +17,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="performance.html">
             <img src="img/logo.png"/>
           </a>
             <div id="profile-nav" class="">
@@ -31,7 +31,7 @@
                   <a role="menuitem" tabindex="-1" href="connect.html">Connect Services</a>
                 </li>
                 <li role="menuitem">
-                  <a role="menuitem" tabindex="-1" href="#">Performance</a>
+                  <a role="menuitem" tabindex="-1" href="performance.html">Performance</a>
                 </li>
                 <li role="menuitem">
                   <a class="inactive" role="menuitem" tabindex="-1" href="#">Account Settings</a>
@@ -51,13 +51,36 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="content">
-              <div class="item-banner">
-                <img src="img/sendgrid-banner.png"/>
+              <div class="item-banner bgyellow">
+                <img src="img/amazon-banner.png" class="center-block"/>
               </div>
               <div class="item-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet diam pharetra,</br> laoreet tortor sed, dapibus augue. Sed massa magn
               </div>
+              <div class="item-form">
+                <form>
+                    <label for="exampleInputName">SES Region</label>
+                    <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </form>
 
+                <form class="form">
+                    <label for="exampleInputName">Access Key</label>
+                    <input type="text" class="form-control" placeholder="API Key">
+                </form>
+
+                <form class="form">
+                    <label for="exampleInputName">Secret Key</label>
+                    <input type="text" class="form-control" placeholder="API Key">
+                </form>
+
+              </div>
+              <a href="connect.html" class="save-btn center-block">Save</a>
             </div>
           </div>
         </div>
